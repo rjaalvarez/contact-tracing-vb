@@ -66,6 +66,15 @@ Partial Class contactTracingForm
         Me.thirdNoCheckBox = New System.Windows.Forms.CheckBox()
         Me.fourthNoCheckBox = New System.Windows.Forms.CheckBox()
         Me.fifthNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.secondQuestionLabel = New System.Windows.Forms.Label()
+        Me.travelYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.travelNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.thirdQuestionLabel1 = New System.Windows.Forms.Label()
+        Me.thirdQuestionLabel2 = New System.Windows.Forms.Label()
+        Me.inContactYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.inContactNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.lbl_warning = New System.Windows.Forms.Label()
+        Me.submitFormButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'headerLabel
@@ -332,17 +341,17 @@ Partial Class contactTracingForm
         '
         Me.firstQuestionLabel.AutoSize = True
         Me.firstQuestionLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firstQuestionLabel.Location = New System.Drawing.Point(231, 377)
+        Me.firstQuestionLabel.Location = New System.Drawing.Point(218, 377)
         Me.firstQuestionLabel.Name = "firstQuestionLabel"
-        Me.firstQuestionLabel.Size = New System.Drawing.Size(514, 27)
+        Me.firstQuestionLabel.Size = New System.Drawing.Size(542, 27)
         Me.firstQuestionLabel.TabIndex = 26
-        Me.firstQuestionLabel.Text = "Have you experienced one of the following symptoms?"
+        Me.firstQuestionLabel.Text = "1. Have you experienced one of the following symptoms?"
         '
         'firstSymptomLabel
         '
         Me.firstSymptomLabel.AutoSize = True
         Me.firstSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firstSymptomLabel.Location = New System.Drawing.Point(285, 404)
+        Me.firstSymptomLabel.Location = New System.Drawing.Point(285, 410)
         Me.firstSymptomLabel.Name = "firstSymptomLabel"
         Me.firstSymptomLabel.Size = New System.Drawing.Size(231, 27)
         Me.firstSymptomLabel.TabIndex = 27
@@ -352,7 +361,7 @@ Partial Class contactTracingForm
         '
         Me.secondSymptomLabel.AutoSize = True
         Me.secondSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.secondSymptomLabel.Location = New System.Drawing.Point(444, 431)
+        Me.secondSymptomLabel.Location = New System.Drawing.Point(444, 437)
         Me.secondSymptomLabel.Name = "secondSymptomLabel"
         Me.secondSymptomLabel.Size = New System.Drawing.Size(72, 27)
         Me.secondSymptomLabel.TabIndex = 28
@@ -362,7 +371,7 @@ Partial Class contactTracingForm
         '
         Me.thirdSymptomLabel.AutoSize = True
         Me.thirdSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thirdSymptomLabel.Location = New System.Drawing.Point(443, 458)
+        Me.thirdSymptomLabel.Location = New System.Drawing.Point(443, 464)
         Me.thirdSymptomLabel.Name = "thirdSymptomLabel"
         Me.thirdSymptomLabel.Size = New System.Drawing.Size(73, 27)
         Me.thirdSymptomLabel.TabIndex = 29
@@ -372,7 +381,7 @@ Partial Class contactTracingForm
         '
         Me.fourthSymptomLabel.AutoSize = True
         Me.fourthSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fourthSymptomLabel.Location = New System.Drawing.Point(383, 485)
+        Me.fourthSymptomLabel.Location = New System.Drawing.Point(383, 491)
         Me.fourthSymptomLabel.Name = "fourthSymptomLabel"
         Me.fourthSymptomLabel.Size = New System.Drawing.Size(134, 27)
         Me.fourthSymptomLabel.TabIndex = 30
@@ -382,7 +391,7 @@ Partial Class contactTracingForm
         '
         Me.fifthSymptomLabel.AutoSize = True
         Me.fifthSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fifthSymptomLabel.Location = New System.Drawing.Point(449, 512)
+        Me.fifthSymptomLabel.Location = New System.Drawing.Point(449, 518)
         Me.fifthSymptomLabel.Name = "fifthSymptomLabel"
         Me.fifthSymptomLabel.Size = New System.Drawing.Size(67, 27)
         Me.fifthSymptomLabel.TabIndex = 31
@@ -392,7 +401,7 @@ Partial Class contactTracingForm
         '
         Me.firstYesCheckBox.AutoSize = True
         Me.firstYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firstYesCheckBox.Location = New System.Drawing.Point(522, 401)
+        Me.firstYesCheckBox.Location = New System.Drawing.Point(522, 407)
         Me.firstYesCheckBox.Name = "firstYesCheckBox"
         Me.firstYesCheckBox.Size = New System.Drawing.Size(62, 30)
         Me.firstYesCheckBox.TabIndex = 32
@@ -403,7 +412,7 @@ Partial Class contactTracingForm
         '
         Me.secondYesCheckBox.AutoSize = True
         Me.secondYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.secondYesCheckBox.Location = New System.Drawing.Point(522, 428)
+        Me.secondYesCheckBox.Location = New System.Drawing.Point(522, 434)
         Me.secondYesCheckBox.Name = "secondYesCheckBox"
         Me.secondYesCheckBox.Size = New System.Drawing.Size(62, 30)
         Me.secondYesCheckBox.TabIndex = 33
@@ -414,7 +423,7 @@ Partial Class contactTracingForm
         '
         Me.thirdYesCheckBox.AutoSize = True
         Me.thirdYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thirdYesCheckBox.Location = New System.Drawing.Point(522, 458)
+        Me.thirdYesCheckBox.Location = New System.Drawing.Point(522, 464)
         Me.thirdYesCheckBox.Name = "thirdYesCheckBox"
         Me.thirdYesCheckBox.Size = New System.Drawing.Size(62, 30)
         Me.thirdYesCheckBox.TabIndex = 34
@@ -425,7 +434,7 @@ Partial Class contactTracingForm
         '
         Me.fourthYesCheckBox.AutoSize = True
         Me.fourthYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fourthYesCheckBox.Location = New System.Drawing.Point(522, 485)
+        Me.fourthYesCheckBox.Location = New System.Drawing.Point(522, 491)
         Me.fourthYesCheckBox.Name = "fourthYesCheckBox"
         Me.fourthYesCheckBox.Size = New System.Drawing.Size(62, 30)
         Me.fourthYesCheckBox.TabIndex = 35
@@ -436,7 +445,7 @@ Partial Class contactTracingForm
         '
         Me.fifthYesCheckBox.AutoSize = True
         Me.fifthYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fifthYesCheckBox.Location = New System.Drawing.Point(522, 512)
+        Me.fifthYesCheckBox.Location = New System.Drawing.Point(522, 518)
         Me.fifthYesCheckBox.Name = "fifthYesCheckBox"
         Me.fifthYesCheckBox.Size = New System.Drawing.Size(62, 30)
         Me.fifthYesCheckBox.TabIndex = 36
@@ -447,7 +456,7 @@ Partial Class contactTracingForm
         '
         Me.firstNoCheckBox.AutoSize = True
         Me.firstNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firstNoCheckBox.Location = New System.Drawing.Point(590, 401)
+        Me.firstNoCheckBox.Location = New System.Drawing.Point(590, 407)
         Me.firstNoCheckBox.Name = "firstNoCheckBox"
         Me.firstNoCheckBox.Size = New System.Drawing.Size(56, 30)
         Me.firstNoCheckBox.TabIndex = 37
@@ -458,7 +467,7 @@ Partial Class contactTracingForm
         '
         Me.secondNoCheckBox.AutoSize = True
         Me.secondNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.secondNoCheckBox.Location = New System.Drawing.Point(590, 428)
+        Me.secondNoCheckBox.Location = New System.Drawing.Point(590, 434)
         Me.secondNoCheckBox.Name = "secondNoCheckBox"
         Me.secondNoCheckBox.Size = New System.Drawing.Size(56, 30)
         Me.secondNoCheckBox.TabIndex = 38
@@ -469,7 +478,7 @@ Partial Class contactTracingForm
         '
         Me.thirdNoCheckBox.AutoSize = True
         Me.thirdNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.thirdNoCheckBox.Location = New System.Drawing.Point(590, 458)
+        Me.thirdNoCheckBox.Location = New System.Drawing.Point(590, 464)
         Me.thirdNoCheckBox.Name = "thirdNoCheckBox"
         Me.thirdNoCheckBox.Size = New System.Drawing.Size(56, 30)
         Me.thirdNoCheckBox.TabIndex = 39
@@ -480,7 +489,7 @@ Partial Class contactTracingForm
         '
         Me.fourthNoCheckBox.AutoSize = True
         Me.fourthNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fourthNoCheckBox.Location = New System.Drawing.Point(590, 485)
+        Me.fourthNoCheckBox.Location = New System.Drawing.Point(590, 491)
         Me.fourthNoCheckBox.Name = "fourthNoCheckBox"
         Me.fourthNoCheckBox.Size = New System.Drawing.Size(56, 30)
         Me.fourthNoCheckBox.TabIndex = 40
@@ -491,19 +500,125 @@ Partial Class contactTracingForm
         '
         Me.fifthNoCheckBox.AutoSize = True
         Me.fifthNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fifthNoCheckBox.Location = New System.Drawing.Point(590, 512)
+        Me.fifthNoCheckBox.Location = New System.Drawing.Point(590, 518)
         Me.fifthNoCheckBox.Name = "fifthNoCheckBox"
         Me.fifthNoCheckBox.Size = New System.Drawing.Size(56, 30)
         Me.fifthNoCheckBox.TabIndex = 41
         Me.fifthNoCheckBox.Text = "No"
         Me.fifthNoCheckBox.UseVisualStyleBackColor = True
         '
+        'secondQuestionLabel
+        '
+        Me.secondQuestionLabel.AutoSize = True
+        Me.secondQuestionLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.secondQuestionLabel.Location = New System.Drawing.Point(18, 551)
+        Me.secondQuestionLabel.Name = "secondQuestionLabel"
+        Me.secondQuestionLabel.Size = New System.Drawing.Size(807, 27)
+        Me.secondQuestionLabel.TabIndex = 42
+        Me.secondQuestionLabel.Text = "2. Have you traveled outside the Philippines anytime from December 2019 until now" &
+    "?"
+        '
+        'travelYesCheckBox
+        '
+        Me.travelYesCheckBox.AutoSize = True
+        Me.travelYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.travelYesCheckBox.Location = New System.Drawing.Point(824, 551)
+        Me.travelYesCheckBox.Name = "travelYesCheckBox"
+        Me.travelYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.travelYesCheckBox.TabIndex = 43
+        Me.travelYesCheckBox.Text = "Yes"
+        Me.travelYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'travelNoCheckBox
+        '
+        Me.travelNoCheckBox.AutoSize = True
+        Me.travelNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.travelNoCheckBox.Location = New System.Drawing.Point(887, 551)
+        Me.travelNoCheckBox.Name = "travelNoCheckBox"
+        Me.travelNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.travelNoCheckBox.TabIndex = 44
+        Me.travelNoCheckBox.Text = "No"
+        Me.travelNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'thirdQuestionLabel1
+        '
+        Me.thirdQuestionLabel1.AutoSize = True
+        Me.thirdQuestionLabel1.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thirdQuestionLabel1.Location = New System.Drawing.Point(18, 584)
+        Me.thirdQuestionLabel1.Name = "thirdQuestionLabel1"
+        Me.thirdQuestionLabel1.Size = New System.Drawing.Size(887, 27)
+        Me.thirdQuestionLabel1.TabIndex = 45
+        Me.thirdQuestionLabel1.Text = "3. Have you, or anyone you have been in close contact with been diagnosed with CO" &
+    "VID-19, "
+        '
+        'thirdQuestionLabel2
+        '
+        Me.thirdQuestionLabel2.AutoSize = True
+        Me.thirdQuestionLabel2.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thirdQuestionLabel2.Location = New System.Drawing.Point(45, 617)
+        Me.thirdQuestionLabel2.Name = "thirdQuestionLabel2"
+        Me.thirdQuestionLabel2.Size = New System.Drawing.Size(637, 27)
+        Me.thirdQuestionLabel2.TabIndex = 46
+        Me.thirdQuestionLabel2.Text = "or been placed on quarantine for possible contact with COVID-19?"
+        '
+        'inContactYesCheckBox
+        '
+        Me.inContactYesCheckBox.AutoSize = True
+        Me.inContactYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inContactYesCheckBox.Location = New System.Drawing.Point(688, 617)
+        Me.inContactYesCheckBox.Name = "inContactYesCheckBox"
+        Me.inContactYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.inContactYesCheckBox.TabIndex = 47
+        Me.inContactYesCheckBox.Text = "Yes"
+        Me.inContactYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'inContactNoCheckBox
+        '
+        Me.inContactNoCheckBox.AutoSize = True
+        Me.inContactNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.inContactNoCheckBox.Location = New System.Drawing.Point(756, 617)
+        Me.inContactNoCheckBox.Name = "inContactNoCheckBox"
+        Me.inContactNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.inContactNoCheckBox.TabIndex = 48
+        Me.inContactNoCheckBox.Text = "No"
+        Me.inContactNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'lbl_warning
+        '
+        Me.lbl_warning.AutoSize = True
+        Me.lbl_warning.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_warning.Location = New System.Drawing.Point(29, 691)
+        Me.lbl_warning.Name = "lbl_warning"
+        Me.lbl_warning.Size = New System.Drawing.Size(932, 19)
+        Me.lbl_warning.TabIndex = 49
+        Me.lbl_warning.Text = "If you reply YES to any of the questions in the checklist, stay home and contact " &
+    "a health care provider for guidance and assistance."
+        '
+        'submitFormButton
+        '
+        Me.submitFormButton.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.submitFormButton.Location = New System.Drawing.Point(433, 647)
+        Me.submitFormButton.Name = "submitFormButton"
+        Me.submitFormButton.Size = New System.Drawing.Size(93, 41)
+        Me.submitFormButton.TabIndex = 50
+        Me.submitFormButton.Text = "Submit"
+        Me.submitFormButton.UseVisualStyleBackColor = True
+        '
         'contactTracingForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkKhaki
-        Me.ClientSize = New System.Drawing.Size(985, 657)
+        Me.ClientSize = New System.Drawing.Size(985, 717)
+        Me.Controls.Add(Me.submitFormButton)
+        Me.Controls.Add(Me.lbl_warning)
+        Me.Controls.Add(Me.inContactNoCheckBox)
+        Me.Controls.Add(Me.inContactYesCheckBox)
+        Me.Controls.Add(Me.thirdQuestionLabel2)
+        Me.Controls.Add(Me.thirdQuestionLabel1)
+        Me.Controls.Add(Me.travelNoCheckBox)
+        Me.Controls.Add(Me.travelYesCheckBox)
+        Me.Controls.Add(Me.secondQuestionLabel)
         Me.Controls.Add(Me.fifthNoCheckBox)
         Me.Controls.Add(Me.fourthNoCheckBox)
         Me.Controls.Add(Me.thirdNoCheckBox)
@@ -546,6 +661,9 @@ Partial Class contactTracingForm
         Me.Controls.Add(Me.ageLabel)
         Me.Controls.Add(Me.firstNameLabel)
         Me.Controls.Add(Me.headerLabel)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "contactTracingForm"
         Me.Text = "Contact Tracing Form VB"
         Me.ResumeLayout(False)
@@ -596,4 +714,13 @@ Partial Class contactTracingForm
     Friend WithEvents thirdNoCheckBox As CheckBox
     Friend WithEvents fourthNoCheckBox As CheckBox
     Friend WithEvents fifthNoCheckBox As CheckBox
+    Friend WithEvents secondQuestionLabel As Label
+    Friend WithEvents travelYesCheckBox As CheckBox
+    Friend WithEvents travelNoCheckBox As CheckBox
+    Private WithEvents thirdQuestionLabel1 As Label
+    Private WithEvents thirdQuestionLabel2 As Label
+    Friend WithEvents inContactYesCheckBox As CheckBox
+    Friend WithEvents inContactNoCheckBox As CheckBox
+    Private WithEvents lbl_warning As Label
+    Friend WithEvents submitFormButton As Button
 End Class
