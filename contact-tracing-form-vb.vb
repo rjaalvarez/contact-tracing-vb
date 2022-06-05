@@ -25,7 +25,10 @@
         writefile.WriteLine(currentTime.Text & " " & timerLabel.Text)
         writefile.WriteLine(locationLabel.Text & " " & txtbxLocation.Text)
         writefile.WriteLine(" ")
+        writefile.WriteLine(checkListLabel.Text)
+        writefile.WriteLine(" ")
 
         writefile.Close()
+
     End Sub
 End Class
