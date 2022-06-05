@@ -1,0 +1,21 @@
+﻿CONTACT TRACING FORM
+ 
+First Name: 
+Middle Name: 
+Last Name: 
+Age: 
+Gender: Not Specified
+Contact Number: 
+Address: 
+Email Address: 
+Date: Sunday, June 5, 2022
+Time: 4:40:20 PM
+Location: San Jose del Monte, Bulacan
+ 
+Health Condition Checklist
+ 
+Loss of Smell or Taste: No
+Fever: Yes
+Cough: Yes
+Sore Throat: No
+Chills: Yes

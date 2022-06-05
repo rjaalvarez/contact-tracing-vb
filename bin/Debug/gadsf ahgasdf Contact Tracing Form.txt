@@ -1,0 +1,17 @@
+﻿CONTACT TRACING FORM
+ 
+First Name: gadsf
+Middle Name: asdsdasd
+Last Name: ahgasdf
+Age: 213
+Gender: Not Specified
+Contact Number: 4451341324
+Address: hsfdgsdfga
+Email Address: fasdgadgasd@g.c
+Date: Sunday, June 5, 2022
+Time: 4:22:56 PM
+Location: San Jose del Monte, Bulacan
+ 
+Health Condition Checklist
+ 
+Loss of Smell or Taste: No

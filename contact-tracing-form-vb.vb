@@ -28,6 +28,47 @@
         writefile.WriteLine(checkListLabel.Text)
         writefile.WriteLine(" ")
 
+        'First Checklist
+        If firstYesRadio.Checked Then
+            writefile.WriteLine(firstSymptomLabel.Text & " " & firstYesRadio.Text)
+        ElseIf firstNoRadio.Checked Then
+            writefile.WriteLine(firstSymptomLabel.Text & " " & firstNoRadio.Text)
+        Else
+            writefile.WriteLine(firstSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        If secondYesRadio.Checked Then
+            writefile.WriteLine(secondSymptomLabel.Text & " " & secondYesRadio.Text)
+        ElseIf secondNoRadio.Checked Then
+            writefile.WriteLine(secondSymptomLabel.Text & " " & secondNoRadio.Text)
+        Else
+            writefile.WriteLine(secondSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        If thirdYesRadio.Checked Then
+            writefile.WriteLine(thirdSymptomLabel.Text & " " & thirdYesRadio.Text)
+        ElseIf thirdNoRadio.Checked Then
+            writefile.WriteLine(thirdSymptomLabel.Text & " " & thirdNoRadio.Text)
+        Else
+            writefile.WriteLine(thirdSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        If fourthYesRadio.Checked Then
+            writefile.WriteLine(fourthSymptomLabel.Text & " " & fourthYesRadio.Text)
+        ElseIf fourthNoRadio.Checked Then
+            writefile.WriteLine(fourthSymptomLabel.Text & " " & fourthNoRadio.Text)
+        Else
+            writefile.WriteLine(fourthSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        If fifthYesRadio.Checked Then
+            writefile.WriteLine(fifthSymptomLabel.Text & " " & fifthYesRadio.Text)
+        ElseIf fifthNoRadio.Checked Then
+            writefile.WriteLine(fifthSymptomLabel.Text & " " & fifthNoRadio.Text)
+        Else
+            writefile.WriteLine(fifthSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
         writefile.Close()
 
     End Sub
