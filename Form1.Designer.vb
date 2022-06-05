@@ -88,6 +88,7 @@ Partial Class contactTracingForm
         Me.txtbxFname.Name = "txtbxFname"
         Me.txtbxFname.Size = New System.Drawing.Size(227, 30)
         Me.txtbxFname.TabIndex = 3
+        Me.txtbxFname.TabStop = False
         '
         'txtboxAge
         '
@@ -96,6 +97,7 @@ Partial Class contactTracingForm
         Me.txtboxAge.Name = "txtboxAge"
         Me.txtboxAge.Size = New System.Drawing.Size(76, 30)
         Me.txtboxAge.TabIndex = 4
+        Me.txtboxAge.TabStop = False
         '
         'midNameLabel
         '
@@ -124,6 +126,7 @@ Partial Class contactTracingForm
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(162, 30)
         Me.TextBox1.TabIndex = 7
+        Me.TextBox1.TabStop = False
         '
         'TextBox2
         '
@@ -132,6 +135,7 @@ Partial Class contactTracingForm
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(162, 30)
         Me.TextBox2.TabIndex = 8
+        Me.TextBox2.TabStop = False
         '
         'genderLabel
         '
@@ -151,7 +155,6 @@ Partial Class contactTracingForm
         Me.radioMale.Name = "radioMale"
         Me.radioMale.Size = New System.Drawing.Size(64, 27)
         Me.radioMale.TabIndex = 10
-        Me.radioMale.TabStop = True
         Me.radioMale.Text = "Male"
         Me.radioMale.UseVisualStyleBackColor = True
         '
@@ -163,7 +166,6 @@ Partial Class contactTracingForm
         Me.femaleLabel.Name = "femaleLabel"
         Me.femaleLabel.Size = New System.Drawing.Size(78, 27)
         Me.femaleLabel.TabIndex = 11
-        Me.femaleLabel.TabStop = True
         Me.femaleLabel.Text = "Female"
         Me.femaleLabel.UseVisualStyleBackColor = True
         '
@@ -194,6 +196,7 @@ Partial Class contactTracingForm
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(227, 30)
         Me.TextBox3.TabIndex = 14
+        Me.TextBox3.TabStop = False
         '
         'addressLabel
         '
@@ -212,6 +215,7 @@ Partial Class contactTracingForm
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(437, 30)
         Me.TextBox4.TabIndex = 16
+        Me.TextBox4.TabStop = False
         '
         'emailLabel
         '
@@ -230,6 +234,7 @@ Partial Class contactTracingForm
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(349, 30)
         Me.TextBox5.TabIndex = 18
+        Me.TextBox5.TabStop = False
         '
         'dateLabel
         '
@@ -250,6 +255,7 @@ Partial Class contactTracingForm
         Me.currentDate.Name = "currentDate"
         Me.currentDate.Size = New System.Drawing.Size(282, 30)
         Me.currentDate.TabIndex = 20
+        Me.currentDate.TabStop = False
         '
         'currentTime
         '
@@ -292,6 +298,7 @@ Partial Class contactTracingForm
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(349, 30)
         Me.TextBox6.TabIndex = 24
+        Me.TextBox6.TabStop = False
         Me.TextBox6.Text = "San Jose del Monte, Bulacan"
         '
         'contactTracingForm
