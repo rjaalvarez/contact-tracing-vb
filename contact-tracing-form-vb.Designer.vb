@@ -58,7 +58,7 @@ Partial Class contactTracingForm
         Me.secondQuestionLabel = New System.Windows.Forms.Label()
         Me.thirdQuestionLabel1 = New System.Windows.Forms.Label()
         Me.thirdQuestionLabel2 = New System.Windows.Forms.Label()
-        Me.lbl_warning = New System.Windows.Forms.Label()
+        Me.footerLabel = New System.Windows.Forms.Label()
         Me.submitFormButton = New System.Windows.Forms.Button()
         Me.firstGroupBox = New System.Windows.Forms.GroupBox()
         Me.firstNoRadio = New System.Windows.Forms.RadioButton()
@@ -433,15 +433,15 @@ Partial Class contactTracingForm
         Me.thirdQuestionLabel2.TabIndex = 46
         Me.thirdQuestionLabel2.Text = "or been placed on quarantine for possible contact with COVID-19?"
         '
-        'lbl_warning
+        'footerLabel
         '
-        Me.lbl_warning.AutoSize = True
-        Me.lbl_warning.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_warning.Location = New System.Drawing.Point(29, 712)
-        Me.lbl_warning.Name = "lbl_warning"
-        Me.lbl_warning.Size = New System.Drawing.Size(932, 19)
-        Me.lbl_warning.TabIndex = 49
-        Me.lbl_warning.Text = "If you reply YES to any of the questions in the checklist, stay home and contact " &
+        Me.footerLabel.AutoSize = True
+        Me.footerLabel.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.footerLabel.Location = New System.Drawing.Point(29, 712)
+        Me.footerLabel.Name = "footerLabel"
+        Me.footerLabel.Size = New System.Drawing.Size(932, 19)
+        Me.footerLabel.TabIndex = 49
+        Me.footerLabel.Text = "If you reply YES to any of the questions in the checklist, stay home and contact " &
     "a health care provider for guidance and assistance."
         '
         'submitFormButton
@@ -710,7 +710,7 @@ Partial Class contactTracingForm
         Me.Controls.Add(Me.secondGroupBox)
         Me.Controls.Add(Me.firstGroupBox)
         Me.Controls.Add(Me.submitFormButton)
-        Me.Controls.Add(Me.lbl_warning)
+        Me.Controls.Add(Me.footerLabel)
         Me.Controls.Add(Me.firstQuestionLabel)
         Me.Controls.Add(Me.checkListLabel)
         Me.Controls.Add(Me.txtbxLocation)
@@ -797,7 +797,7 @@ Partial Class contactTracingForm
     Friend WithEvents secondQuestionLabel As Label
     Private WithEvents thirdQuestionLabel1 As Label
     Private WithEvents thirdQuestionLabel2 As Label
-    Private WithEvents lbl_warning As Label
+    Private WithEvents footerLabel As Label
     Friend WithEvents submitFormButton As Button
     Friend WithEvents firstGroupBox As GroupBox
     Friend WithEvents firstNoRadio As RadioButton

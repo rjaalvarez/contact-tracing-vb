@@ -69,6 +69,27 @@
             writefile.WriteLine(fifthSymptomLabel.Text & " " & "Kindly answer the checklist completely.")
         End If
 
+        'Second Checklist
+        If travelYesRadio.Checked Then
+            writefile.WriteLine(secondQuestionLabel.Text & " " & travelYesRadio.Text)
+        ElseIf travelNoRadio.Checked Then
+            writefile.WriteLine(secondQuestionLabel.Text & " " & travelNoRadio.Text)
+        Else
+            writefile.WriteLine(secondQuestionLabel.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        If inContactYesRadio.Checked Then
+            writefile.WriteLine(thirdQuestionLabel1.Text & vbNewLine & thirdQuestionLabel2.Text & " " & inContactYesRadio.Text)
+        ElseIf inContactNoRadio.Checked Then
+            writefile.WriteLine(thirdQuestionLabel1.Text & vbNewLine & thirdQuestionLabel2.Text & " " & inContactNoRadio.Text)
+        Else
+            writefile.WriteLine(thirdQuestionLabel1.Text & vbNewLine & thirdQuestionLabel2.Text & " " & "Kindly answer the checklist completely.")
+        End If
+
+        writefile.WriteLine(" ")
+        writefile.WriteLine(footerLabel.Text)
+        MessageBox.Show("Submitted a form.")
+
         writefile.Close()
 
     End Sub
