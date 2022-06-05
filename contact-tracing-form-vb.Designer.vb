@@ -30,8 +30,8 @@ Partial Class contactTracingForm
         Me.txtboxAge = New System.Windows.Forms.TextBox()
         Me.midNameLabel = New System.Windows.Forms.Label()
         Me.lastNameLabel = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtbxMidName = New System.Windows.Forms.TextBox()
+        Me.txtbxLastName = New System.Windows.Forms.TextBox()
         Me.genderLabel = New System.Windows.Forms.Label()
         Me.radioMale = New System.Windows.Forms.RadioButton()
         Me.femaleLabel = New System.Windows.Forms.RadioButton()
@@ -145,23 +145,23 @@ Partial Class contactTracingForm
         Me.lastNameLabel.TabIndex = 6
         Me.lastNameLabel.Text = "Last Name:"
         '
-        'TextBox1
+        'txtbxMidName
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(506, 122)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(162, 30)
-        Me.TextBox1.TabIndex = 7
-        Me.TextBox1.TabStop = False
+        Me.txtbxMidName.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxMidName.Location = New System.Drawing.Point(506, 122)
+        Me.txtbxMidName.Name = "txtbxMidName"
+        Me.txtbxMidName.Size = New System.Drawing.Size(162, 30)
+        Me.txtbxMidName.TabIndex = 7
+        Me.txtbxMidName.TabStop = False
         '
-        'TextBox2
+        'txtbxLastName
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(781, 122)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(162, 30)
-        Me.TextBox2.TabIndex = 8
-        Me.TextBox2.TabStop = False
+        Me.txtbxLastName.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxLastName.Location = New System.Drawing.Point(781, 122)
+        Me.txtbxLastName.Name = "txtbxLastName"
+        Me.txtbxLastName.Size = New System.Drawing.Size(162, 30)
+        Me.txtbxLastName.TabIndex = 8
+        Me.txtbxLastName.TabStop = False
         '
         'genderLabel
         '
@@ -652,8 +652,8 @@ Partial Class contactTracingForm
         Me.Controls.Add(Me.femaleLabel)
         Me.Controls.Add(Me.radioMale)
         Me.Controls.Add(Me.genderLabel)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtbxLastName)
+        Me.Controls.Add(Me.txtbxMidName)
         Me.Controls.Add(Me.lastNameLabel)
         Me.Controls.Add(Me.midNameLabel)
         Me.Controls.Add(Me.txtboxAge)
@@ -678,8 +678,8 @@ Partial Class contactTracingForm
     Friend WithEvents txtboxAge As TextBox
     Friend WithEvents midNameLabel As Label
     Friend WithEvents lastNameLabel As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtbxMidName As TextBox
+    Friend WithEvents txtbxLastName As TextBox
     Friend WithEvents genderLabel As Label
     Friend WithEvents radioMale As RadioButton
     Friend WithEvents femaleLabel As RadioButton
