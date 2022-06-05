@@ -49,6 +49,23 @@ Partial Class contactTracingForm
         Me.timerLabel = New System.Windows.Forms.Label()
         Me.locationLabel = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.checkListLabel = New System.Windows.Forms.Label()
+        Me.firstQuestionLabel = New System.Windows.Forms.Label()
+        Me.firstSymptomLabel = New System.Windows.Forms.Label()
+        Me.secondSymptomLabel = New System.Windows.Forms.Label()
+        Me.thirdSymptomLabel = New System.Windows.Forms.Label()
+        Me.fourthSymptomLabel = New System.Windows.Forms.Label()
+        Me.fifthSymptomLabel = New System.Windows.Forms.Label()
+        Me.firstYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.secondYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.thirdYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.fourthYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.fifthYesCheckBox = New System.Windows.Forms.CheckBox()
+        Me.firstNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.secondNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.thirdNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.fourthNoCheckBox = New System.Windows.Forms.CheckBox()
+        Me.fifthNoCheckBox = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'headerLabel
@@ -301,12 +318,209 @@ Partial Class contactTracingForm
         Me.TextBox6.TabStop = False
         Me.TextBox6.Text = "San Jose del Monte, Bulacan"
         '
+        'checkListLabel
+        '
+        Me.checkListLabel.AutoSize = True
+        Me.checkListLabel.Font = New System.Drawing.Font("Comic Sans MS", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkListLabel.Location = New System.Drawing.Point(282, 332)
+        Me.checkListLabel.Name = "checkListLabel"
+        Me.checkListLabel.Size = New System.Drawing.Size(429, 45)
+        Me.checkListLabel.TabIndex = 25
+        Me.checkListLabel.Text = "Health Condition Checklist"
+        '
+        'firstQuestionLabel
+        '
+        Me.firstQuestionLabel.AutoSize = True
+        Me.firstQuestionLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstQuestionLabel.Location = New System.Drawing.Point(231, 377)
+        Me.firstQuestionLabel.Name = "firstQuestionLabel"
+        Me.firstQuestionLabel.Size = New System.Drawing.Size(514, 27)
+        Me.firstQuestionLabel.TabIndex = 26
+        Me.firstQuestionLabel.Text = "Have you experienced one of the following symptoms?"
+        '
+        'firstSymptomLabel
+        '
+        Me.firstSymptomLabel.AutoSize = True
+        Me.firstSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstSymptomLabel.Location = New System.Drawing.Point(285, 404)
+        Me.firstSymptomLabel.Name = "firstSymptomLabel"
+        Me.firstSymptomLabel.Size = New System.Drawing.Size(231, 27)
+        Me.firstSymptomLabel.TabIndex = 27
+        Me.firstSymptomLabel.Text = "Loss of Smell or Taste:"
+        '
+        'secondSymptomLabel
+        '
+        Me.secondSymptomLabel.AutoSize = True
+        Me.secondSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.secondSymptomLabel.Location = New System.Drawing.Point(444, 431)
+        Me.secondSymptomLabel.Name = "secondSymptomLabel"
+        Me.secondSymptomLabel.Size = New System.Drawing.Size(72, 27)
+        Me.secondSymptomLabel.TabIndex = 28
+        Me.secondSymptomLabel.Text = "Fever:"
+        '
+        'thirdSymptomLabel
+        '
+        Me.thirdSymptomLabel.AutoSize = True
+        Me.thirdSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thirdSymptomLabel.Location = New System.Drawing.Point(443, 458)
+        Me.thirdSymptomLabel.Name = "thirdSymptomLabel"
+        Me.thirdSymptomLabel.Size = New System.Drawing.Size(73, 27)
+        Me.thirdSymptomLabel.TabIndex = 29
+        Me.thirdSymptomLabel.Text = "Cough:"
+        '
+        'fourthSymptomLabel
+        '
+        Me.fourthSymptomLabel.AutoSize = True
+        Me.fourthSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fourthSymptomLabel.Location = New System.Drawing.Point(383, 485)
+        Me.fourthSymptomLabel.Name = "fourthSymptomLabel"
+        Me.fourthSymptomLabel.Size = New System.Drawing.Size(134, 27)
+        Me.fourthSymptomLabel.TabIndex = 30
+        Me.fourthSymptomLabel.Text = "Sore Throat:"
+        '
+        'fifthSymptomLabel
+        '
+        Me.fifthSymptomLabel.AutoSize = True
+        Me.fifthSymptomLabel.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fifthSymptomLabel.Location = New System.Drawing.Point(449, 512)
+        Me.fifthSymptomLabel.Name = "fifthSymptomLabel"
+        Me.fifthSymptomLabel.Size = New System.Drawing.Size(67, 27)
+        Me.fifthSymptomLabel.TabIndex = 31
+        Me.fifthSymptomLabel.Text = "Chills:"
+        '
+        'firstYesCheckBox
+        '
+        Me.firstYesCheckBox.AutoSize = True
+        Me.firstYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstYesCheckBox.Location = New System.Drawing.Point(522, 401)
+        Me.firstYesCheckBox.Name = "firstYesCheckBox"
+        Me.firstYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.firstYesCheckBox.TabIndex = 32
+        Me.firstYesCheckBox.Text = "Yes"
+        Me.firstYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'secondYesCheckBox
+        '
+        Me.secondYesCheckBox.AutoSize = True
+        Me.secondYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.secondYesCheckBox.Location = New System.Drawing.Point(522, 428)
+        Me.secondYesCheckBox.Name = "secondYesCheckBox"
+        Me.secondYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.secondYesCheckBox.TabIndex = 33
+        Me.secondYesCheckBox.Text = "Yes"
+        Me.secondYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'thirdYesCheckBox
+        '
+        Me.thirdYesCheckBox.AutoSize = True
+        Me.thirdYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thirdYesCheckBox.Location = New System.Drawing.Point(522, 458)
+        Me.thirdYesCheckBox.Name = "thirdYesCheckBox"
+        Me.thirdYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.thirdYesCheckBox.TabIndex = 34
+        Me.thirdYesCheckBox.Text = "Yes"
+        Me.thirdYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'fourthYesCheckBox
+        '
+        Me.fourthYesCheckBox.AutoSize = True
+        Me.fourthYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fourthYesCheckBox.Location = New System.Drawing.Point(522, 485)
+        Me.fourthYesCheckBox.Name = "fourthYesCheckBox"
+        Me.fourthYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.fourthYesCheckBox.TabIndex = 35
+        Me.fourthYesCheckBox.Text = "Yes"
+        Me.fourthYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'fifthYesCheckBox
+        '
+        Me.fifthYesCheckBox.AutoSize = True
+        Me.fifthYesCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fifthYesCheckBox.Location = New System.Drawing.Point(522, 512)
+        Me.fifthYesCheckBox.Name = "fifthYesCheckBox"
+        Me.fifthYesCheckBox.Size = New System.Drawing.Size(62, 30)
+        Me.fifthYesCheckBox.TabIndex = 36
+        Me.fifthYesCheckBox.Text = "Yes"
+        Me.fifthYesCheckBox.UseVisualStyleBackColor = True
+        '
+        'firstNoCheckBox
+        '
+        Me.firstNoCheckBox.AutoSize = True
+        Me.firstNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstNoCheckBox.Location = New System.Drawing.Point(590, 401)
+        Me.firstNoCheckBox.Name = "firstNoCheckBox"
+        Me.firstNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.firstNoCheckBox.TabIndex = 37
+        Me.firstNoCheckBox.Text = "No"
+        Me.firstNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'secondNoCheckBox
+        '
+        Me.secondNoCheckBox.AutoSize = True
+        Me.secondNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.secondNoCheckBox.Location = New System.Drawing.Point(590, 428)
+        Me.secondNoCheckBox.Name = "secondNoCheckBox"
+        Me.secondNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.secondNoCheckBox.TabIndex = 38
+        Me.secondNoCheckBox.Text = "No"
+        Me.secondNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'thirdNoCheckBox
+        '
+        Me.thirdNoCheckBox.AutoSize = True
+        Me.thirdNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.thirdNoCheckBox.Location = New System.Drawing.Point(590, 458)
+        Me.thirdNoCheckBox.Name = "thirdNoCheckBox"
+        Me.thirdNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.thirdNoCheckBox.TabIndex = 39
+        Me.thirdNoCheckBox.Text = "No"
+        Me.thirdNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'fourthNoCheckBox
+        '
+        Me.fourthNoCheckBox.AutoSize = True
+        Me.fourthNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fourthNoCheckBox.Location = New System.Drawing.Point(590, 485)
+        Me.fourthNoCheckBox.Name = "fourthNoCheckBox"
+        Me.fourthNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.fourthNoCheckBox.TabIndex = 40
+        Me.fourthNoCheckBox.Text = "No"
+        Me.fourthNoCheckBox.UseVisualStyleBackColor = True
+        '
+        'fifthNoCheckBox
+        '
+        Me.fifthNoCheckBox.AutoSize = True
+        Me.fifthNoCheckBox.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fifthNoCheckBox.Location = New System.Drawing.Point(590, 512)
+        Me.fifthNoCheckBox.Name = "fifthNoCheckBox"
+        Me.fifthNoCheckBox.Size = New System.Drawing.Size(56, 30)
+        Me.fifthNoCheckBox.TabIndex = 41
+        Me.fifthNoCheckBox.Text = "No"
+        Me.fifthNoCheckBox.UseVisualStyleBackColor = True
+        '
         'contactTracingForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkKhaki
-        Me.ClientSize = New System.Drawing.Size(985, 535)
+        Me.ClientSize = New System.Drawing.Size(985, 657)
+        Me.Controls.Add(Me.fifthNoCheckBox)
+        Me.Controls.Add(Me.fourthNoCheckBox)
+        Me.Controls.Add(Me.thirdNoCheckBox)
+        Me.Controls.Add(Me.secondNoCheckBox)
+        Me.Controls.Add(Me.firstNoCheckBox)
+        Me.Controls.Add(Me.fifthYesCheckBox)
+        Me.Controls.Add(Me.fourthYesCheckBox)
+        Me.Controls.Add(Me.thirdYesCheckBox)
+        Me.Controls.Add(Me.secondYesCheckBox)
+        Me.Controls.Add(Me.firstYesCheckBox)
+        Me.Controls.Add(Me.fifthSymptomLabel)
+        Me.Controls.Add(Me.fourthSymptomLabel)
+        Me.Controls.Add(Me.thirdSymptomLabel)
+        Me.Controls.Add(Me.secondSymptomLabel)
+        Me.Controls.Add(Me.firstSymptomLabel)
+        Me.Controls.Add(Me.firstQuestionLabel)
+        Me.Controls.Add(Me.checkListLabel)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.locationLabel)
         Me.Controls.Add(Me.timerLabel)
@@ -365,4 +579,21 @@ Partial Class contactTracingForm
     Friend WithEvents timerLabel As Label
     Friend WithEvents locationLabel As Label
     Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents checkListLabel As Label
+    Friend WithEvents firstQuestionLabel As Label
+    Friend WithEvents firstSymptomLabel As Label
+    Friend WithEvents secondSymptomLabel As Label
+    Friend WithEvents thirdSymptomLabel As Label
+    Friend WithEvents fourthSymptomLabel As Label
+    Friend WithEvents fifthSymptomLabel As Label
+    Friend WithEvents firstYesCheckBox As CheckBox
+    Friend WithEvents secondYesCheckBox As CheckBox
+    Friend WithEvents thirdYesCheckBox As CheckBox
+    Friend WithEvents fourthYesCheckBox As CheckBox
+    Friend WithEvents fifthYesCheckBox As CheckBox
+    Friend WithEvents firstNoCheckBox As CheckBox
+    Friend WithEvents secondNoCheckBox As CheckBox
+    Friend WithEvents thirdNoCheckBox As CheckBox
+    Friend WithEvents fourthNoCheckBox As CheckBox
+    Friend WithEvents fifthNoCheckBox As CheckBox
 End Class
