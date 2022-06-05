@@ -34,21 +34,21 @@ Partial Class contactTracingForm
         Me.txtbxLastName = New System.Windows.Forms.TextBox()
         Me.genderLabel = New System.Windows.Forms.Label()
         Me.radioMale = New System.Windows.Forms.RadioButton()
-        Me.femaleLabel = New System.Windows.Forms.RadioButton()
+        Me.radioFemale = New System.Windows.Forms.RadioButton()
         Me.personInfoLabel = New System.Windows.Forms.Label()
         Me.contactLabel = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtbxContact = New System.Windows.Forms.TextBox()
         Me.addressLabel = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtbxAddress = New System.Windows.Forms.TextBox()
         Me.emailLabel = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtbxEmail = New System.Windows.Forms.TextBox()
         Me.dateLabel = New System.Windows.Forms.Label()
         Me.currentDate = New System.Windows.Forms.DateTimePicker()
         Me.currentTime = New System.Windows.Forms.Label()
         Me.currentTimeTimer = New System.Windows.Forms.Timer(Me.components)
         Me.timerLabel = New System.Windows.Forms.Label()
         Me.locationLabel = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtbxLocation = New System.Windows.Forms.TextBox()
         Me.checkListLabel = New System.Windows.Forms.Label()
         Me.firstQuestionLabel = New System.Windows.Forms.Label()
         Me.firstSymptomLabel = New System.Windows.Forms.Label()
@@ -184,16 +184,16 @@ Partial Class contactTracingForm
         Me.radioMale.Text = "Male"
         Me.radioMale.UseVisualStyleBackColor = True
         '
-        'femaleLabel
+        'radioFemale
         '
-        Me.femaleLabel.AutoSize = True
-        Me.femaleLabel.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.femaleLabel.Location = New System.Drawing.Point(576, 158)
-        Me.femaleLabel.Name = "femaleLabel"
-        Me.femaleLabel.Size = New System.Drawing.Size(78, 27)
-        Me.femaleLabel.TabIndex = 11
-        Me.femaleLabel.Text = "Female"
-        Me.femaleLabel.UseVisualStyleBackColor = True
+        Me.radioFemale.AutoSize = True
+        Me.radioFemale.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radioFemale.Location = New System.Drawing.Point(576, 158)
+        Me.radioFemale.Name = "radioFemale"
+        Me.radioFemale.Size = New System.Drawing.Size(78, 27)
+        Me.radioFemale.TabIndex = 11
+        Me.radioFemale.Text = "Female"
+        Me.radioFemale.UseVisualStyleBackColor = True
         '
         'personInfoLabel
         '
@@ -215,14 +215,14 @@ Partial Class contactTracingForm
         Me.contactLabel.TabIndex = 13
         Me.contactLabel.Text = "Contact Number:"
         '
-        'TextBox3
+        'txtbxContact
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(151, 191)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(227, 30)
-        Me.TextBox3.TabIndex = 14
-        Me.TextBox3.TabStop = False
+        Me.txtbxContact.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxContact.Location = New System.Drawing.Point(151, 191)
+        Me.txtbxContact.Name = "txtbxContact"
+        Me.txtbxContact.Size = New System.Drawing.Size(227, 30)
+        Me.txtbxContact.TabIndex = 14
+        Me.txtbxContact.TabStop = False
         '
         'addressLabel
         '
@@ -234,14 +234,14 @@ Partial Class contactTracingForm
         Me.addressLabel.TabIndex = 15
         Me.addressLabel.Text = "Address:"
         '
-        'TextBox4
+        'txtbxAddress
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(506, 191)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(437, 30)
-        Me.TextBox4.TabIndex = 16
-        Me.TextBox4.TabStop = False
+        Me.txtbxAddress.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxAddress.Location = New System.Drawing.Point(506, 191)
+        Me.txtbxAddress.Name = "txtbxAddress"
+        Me.txtbxAddress.Size = New System.Drawing.Size(437, 30)
+        Me.txtbxAddress.TabIndex = 16
+        Me.txtbxAddress.TabStop = False
         '
         'emailLabel
         '
@@ -253,14 +253,14 @@ Partial Class contactTracingForm
         Me.emailLabel.TabIndex = 17
         Me.emailLabel.Text = "Email Address:"
         '
-        'TextBox5
+        'txtbxEmail
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(151, 227)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(349, 30)
-        Me.TextBox5.TabIndex = 18
-        Me.TextBox5.TabStop = False
+        Me.txtbxEmail.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxEmail.Location = New System.Drawing.Point(151, 227)
+        Me.txtbxEmail.Name = "txtbxEmail"
+        Me.txtbxEmail.Size = New System.Drawing.Size(349, 30)
+        Me.txtbxEmail.TabIndex = 18
+        Me.txtbxEmail.TabStop = False
         '
         'dateLabel
         '
@@ -317,15 +317,15 @@ Partial Class contactTracingForm
         Me.locationLabel.TabIndex = 23
         Me.locationLabel.Text = "Location:"
         '
-        'TextBox6
+        'txtbxLocation
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(151, 299)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(349, 30)
-        Me.TextBox6.TabIndex = 24
-        Me.TextBox6.TabStop = False
-        Me.TextBox6.Text = "San Jose del Monte, Bulacan"
+        Me.txtbxLocation.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxLocation.Location = New System.Drawing.Point(151, 299)
+        Me.txtbxLocation.Name = "txtbxLocation"
+        Me.txtbxLocation.Size = New System.Drawing.Size(349, 30)
+        Me.txtbxLocation.TabIndex = 24
+        Me.txtbxLocation.TabStop = False
+        Me.txtbxLocation.Text = "San Jose del Monte, Bulacan"
         '
         'checkListLabel
         '
@@ -636,20 +636,20 @@ Partial Class contactTracingForm
         Me.Controls.Add(Me.firstSymptomLabel)
         Me.Controls.Add(Me.firstQuestionLabel)
         Me.Controls.Add(Me.checkListLabel)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.txtbxLocation)
         Me.Controls.Add(Me.locationLabel)
         Me.Controls.Add(Me.timerLabel)
         Me.Controls.Add(Me.currentTime)
         Me.Controls.Add(Me.currentDate)
         Me.Controls.Add(Me.dateLabel)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtbxEmail)
         Me.Controls.Add(Me.emailLabel)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtbxAddress)
         Me.Controls.Add(Me.addressLabel)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txtbxContact)
         Me.Controls.Add(Me.contactLabel)
         Me.Controls.Add(Me.personInfoLabel)
-        Me.Controls.Add(Me.femaleLabel)
+        Me.Controls.Add(Me.radioFemale)
         Me.Controls.Add(Me.radioMale)
         Me.Controls.Add(Me.genderLabel)
         Me.Controls.Add(Me.txtbxLastName)
@@ -682,21 +682,21 @@ Partial Class contactTracingForm
     Friend WithEvents txtbxLastName As TextBox
     Friend WithEvents genderLabel As Label
     Friend WithEvents radioMale As RadioButton
-    Friend WithEvents femaleLabel As RadioButton
+    Friend WithEvents radioFemale As RadioButton
     Friend WithEvents personInfoLabel As Label
     Friend WithEvents contactLabel As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtbxContact As TextBox
     Friend WithEvents addressLabel As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtbxAddress As TextBox
     Friend WithEvents emailLabel As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtbxEmail As TextBox
     Friend WithEvents dateLabel As Label
     Friend WithEvents currentDate As DateTimePicker
     Friend WithEvents currentTime As Label
     Friend WithEvents currentTimeTimer As Timer
     Friend WithEvents timerLabel As Label
     Friend WithEvents locationLabel As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtbxLocation As TextBox
     Friend WithEvents checkListLabel As Label
     Friend WithEvents firstQuestionLabel As Label
     Friend WithEvents firstSymptomLabel As Label

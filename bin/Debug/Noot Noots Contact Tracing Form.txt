@@ -1,0 +1,11 @@
+﻿CONTACT TRACING FORM
+ 
+First Name: Noot
+Middle Name: N
+Last Name: Noots
+Age: 12
+Gender: Male
+Contact Number: 546-4212
+Address: Bulacan
+Email Address: noot123@gmail.com
+Date: Sunday, June 5, 2022
