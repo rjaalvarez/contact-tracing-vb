@@ -31,7 +31,7 @@ Partial Class contacttraceqr
         '
         'scanQRBtn
         '
-        Me.scanQRBtn.Location = New System.Drawing.Point(151, 374)
+        Me.scanQRBtn.Location = New System.Drawing.Point(167, 386)
         Me.scanQRBtn.Name = "scanQRBtn"
         Me.scanQRBtn.Size = New System.Drawing.Size(139, 61)
         Me.scanQRBtn.TabIndex = 0
@@ -42,8 +42,8 @@ Partial Class contacttraceqr
         '
         Me.cameraPicBox.Location = New System.Drawing.Point(12, 12)
         Me.cameraPicBox.Name = "cameraPicBox"
-        Me.cameraPicBox.Size = New System.Drawing.Size(426, 356)
-        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.cameraPicBox.Size = New System.Drawing.Size(460, 368)
+        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.cameraPicBox.TabIndex = 1
         Me.cameraPicBox.TabStop = False
         '
@@ -55,9 +55,11 @@ Partial Class contacttraceqr
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(450, 447)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(488, 457)
         Me.Controls.Add(Me.cameraPicBox)
         Me.Controls.Add(Me.scanQRBtn)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "contacttraceqr"
         Me.Text = "Contact Tracing QR"
         CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).EndInit()

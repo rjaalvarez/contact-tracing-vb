@@ -36,9 +36,9 @@ Public Class contacttraceqr
                 Dim contactform As New contactTracingForm
                 contactform.contents = qrdecode.ToString()
 
+
                 contactform.Show()
                 Me.Hide()
-
 
             End If
 

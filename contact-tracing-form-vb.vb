@@ -1,5 +1,5 @@
 ﻿Public Class contactTracingForm
-
+    Dim data_outputs As String()
     Public Property contents As String
 
     Private Sub currentTimeTimer_Tick(sender As Object, e As EventArgs) Handles currentTimeTimer.Tick
@@ -95,5 +95,39 @@
 
         writefile.Close()
 
+    End Sub
+
+    Private Sub contactTracingForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        data_outputs = contents.Split(";".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+        txtbxFname.Text = data_outputs(0)
+        txtbxMidName.Text = data_outputs(1)
+        txtbxLastName.Text = data_outputs(2)
+        txtboxAge.Text = data_outputs(3)
+
+        If data_outputs(4).Equals("Male") Then
+            radioMale.Checked = True
+        Else
+            radioFemale.Checked = True
+        End If
+
+        txtbxContact.Text = data_outputs(5)
+        txtbxAddress.Text = data_outputs(6)
+        txtbxEmail.Text = data_outputs(7)
+        MySub(8, firstYesRadio, firstNoRadio)
+        MySub(9, secondYesRadio, secondNoRadio)
+        MySub(10, thirdYesRadio, thirdNoRadio)
+        MySub(11, fourthYesRadio, fourthNoRadio)
+        MySub(12, fifthYesRadio, fifthNoRadio)
+        MySub(13, travelYesRadio, travelNoRadio)
+        MySub(14, inContactYesRadio, inContactNoRadio)
+
+    End Sub
+
+    Sub MySub(myvalue1, myvalue2, myvalue3)
+        If data_outputs(myvalue1).Equals("Yes") Then
+            myvalue2.Checked = True
+        Else
+            myvalue3.Checked = True
+        End If
     End Sub
 End Class
