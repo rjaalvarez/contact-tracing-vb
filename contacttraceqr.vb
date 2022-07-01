@@ -22,4 +22,8 @@ Public Class contacttraceqr
         cameraPicBox.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
 
     End Sub
+
+    Private Sub timerqr_Tick(sender As Object, e As EventArgs) Handles timerqr.Tick
+
+    End Sub
 End Class

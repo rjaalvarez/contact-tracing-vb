@@ -22,8 +22,10 @@ Partial Class contacttraceqr
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.scanQRBtn = New System.Windows.Forms.Button()
         Me.cameraPicBox = New System.Windows.Forms.PictureBox()
+        Me.timerqr = New System.Windows.Forms.Timer(Me.components)
         CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -45,6 +47,10 @@ Partial Class contacttraceqr
         Me.cameraPicBox.TabIndex = 1
         Me.cameraPicBox.TabStop = False
         '
+        'timerqr
+        '
+        Me.timerqr.Interval = 1000
+        '
         'contacttraceqr
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -61,4 +67,5 @@ Partial Class contacttraceqr
 
     Friend WithEvents scanQRBtn As Button
     Friend WithEvents cameraPicBox As PictureBox
+    Friend WithEvents timerqr As Timer
 End Class
