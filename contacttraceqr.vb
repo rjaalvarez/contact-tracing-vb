@@ -2,7 +2,7 @@
 Imports AForge.Video
 Imports AForge.Video.DirectShow
 
-Public Class ContactTracingFormQR
+Public Class contacttraceqr
     Dim camera_qr As VideoCaptureDevice
     Dim bitdisplay As Bitmap
 

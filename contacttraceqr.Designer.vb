@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ContactTracingFormQR
+Partial Class contacttraceqr
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -41,18 +41,18 @@ Partial Class ContactTracingFormQR
         Me.cameraPicBox.Location = New System.Drawing.Point(12, 12)
         Me.cameraPicBox.Name = "cameraPicBox"
         Me.cameraPicBox.Size = New System.Drawing.Size(426, 356)
-        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.cameraPicBox.TabIndex = 1
         Me.cameraPicBox.TabStop = False
         '
-        'ContactTracingFormQR
+        'contacttraceqr
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(450, 447)
         Me.Controls.Add(Me.cameraPicBox)
         Me.Controls.Add(Me.scanQRBtn)
-        Me.Name = "ContactTracingFormQR"
+        Me.Name = "contacttraceqr"
         Me.Text = "Contact Tracing QR"
         CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
