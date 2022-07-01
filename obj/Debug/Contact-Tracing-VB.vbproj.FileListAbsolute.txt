@@ -30,3 +30,6 @@ C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\AForge.xml
 C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\AForge.Video.xml
 C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\AForge.Video.DirectShow.xml
 C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\obj\Debug\Contact_Tracing_VB.contacttraceqr.resources
+C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\zxing.dll
+C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\zxing.pdb
+C:\Users\RJ\source\repos\Contact-Tracing-VB - QR\bin\Debug\zxing.xml
