@@ -23,8 +23,8 @@ Partial Class ContactTracingFormQR
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.scanQRBtn = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.cameraPicBox = New System.Windows.Forms.PictureBox()
+        CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'scanQRBtn
@@ -36,29 +36,29 @@ Partial Class ContactTracingFormQR
         Me.scanQRBtn.Text = "Scan QR"
         Me.scanQRBtn.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'cameraPicBox
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(426, 356)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.cameraPicBox.Location = New System.Drawing.Point(12, 12)
+        Me.cameraPicBox.Name = "cameraPicBox"
+        Me.cameraPicBox.Size = New System.Drawing.Size(426, 356)
+        Me.cameraPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.cameraPicBox.TabIndex = 1
+        Me.cameraPicBox.TabStop = False
         '
         'ContactTracingFormQR
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(450, 447)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.cameraPicBox)
         Me.Controls.Add(Me.scanQRBtn)
         Me.Name = "ContactTracingFormQR"
         Me.Text = "Contact Tracing QR"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cameraPicBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents scanQRBtn As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents cameraPicBox As PictureBox
 End Class
